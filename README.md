@@ -41,3 +41,24 @@ POST /payment
 GET /logs
 
 Example response:
+[
+{
+"action": "User created",
+"timestamp": "2026-04-06T10:30:00"
+},
+{
+"action": "Payment requested",
+"timestamp": "2026-04-06T10:31:00"
+}
+]
+
+
+## Run the project
+
+
+mvn spring-boot:run
+
+
+## Challenge
+
+Part of the **#30DaysOfJavaWithKay** challenge.
